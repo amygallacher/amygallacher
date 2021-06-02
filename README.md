@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @amygallacher
 - 👀 I’m interested in Technology, Dogs, and Beer
-- 🌱 I’m currently learning HTML, CSS and JavaScript
+- 🌱 I’m currently learning HTML, CSS, and JavaScript
 - 📫 You can find me on Twitter: https://twitter.com/_amy_tweets
 
 <!---
