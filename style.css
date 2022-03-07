@@ -94,18 +94,3 @@ footer {
 }
 
 /* Media Queries */
-
-@media(min-width: 800px) {
-
-    #section-a ul {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .card {
-        min-height: 250px;
-        min-width: 400px;
-    }
-
-}
