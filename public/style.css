@@ -1,0 +1,85 @@
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #adcbe3; 
+    font-size: large;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* Header Showcase */
+
+.profile-pic {
+
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 15px;
+}
+
+#showcase {
+    min-height: 200px;
+}
+
+#showcase h1 {
+    padding-top: 5px;
+    padding-bottom: 10x;
+}
+
+/* Nav */
+
+nav {
+    background-color: #4b86b4;
+    padding: 10px;
+}
+
+.social-pics {
+    width: 35px;
+    height: 35px;
+    padding: 0px 5px 0px 5px;
+}
+
+.social-pics:hover {
+    opacity: 80%;    
+}
+
+/* Section A */
+
+#section-a .card{
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#section-a ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
