@@ -1,6 +1,6 @@
 /* styles.css */
 
-/* body {
+body {
     background-color: #000000;
     color: #00ff00;
     font-family: 'Courier New', monospace;
@@ -37,15 +37,15 @@
     letter-spacing: 1px;
   }
   
-  p {
+  /* p {
     color: #cccccc;
   }
-  
+   */
   footer {
     background-color: #333333;
     padding: 10px;
     text-align: center;
     font-size: 14px;
     color: #cccccc;
-  } */
+  }
   
