@@ -1,21 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Chat</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gecko University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #004c97;
+        }
+        .header {
+            background-color: #004c97;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            background-color: #8de971;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            max-width: 600px;
+        }
+        .cta-button {
+            background-color: #004c97;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #003366;
+        }
+        .footer {
+            text-align: center;
+            background-color: #004c97;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Widget Demo</h1>
-  </header>
-<script type="text/javascript">
+    <div class="header">
+        <h2>Gecko University</h2>
+    </div>
+    <div class="hero">
+        <h1>Welcome to Gecko University</h1>
+        <p>Discover a world of learning, innovation, and opportunities at Gecko University. Your future starts here.</p>
+        <a href="#" class="cta-button">Apply Now</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Gecko University. All rights reserved.</p>
+    </div>
+  <script type="text/javascript">
     window.GeckoChatSettings={
       widgetId: "ACS5XJbZE004DLY9-01JJQ6WVF7W5B7WW33C290KMZ3",
       accountName: "demo",
     };
-</script>
-<script type="text/javascript" src="https://chat-widget.geckoengage.com"></script>
+  </script>
+  <script type="text/javascript" src="https://chat-widget.geckoengage.com"></script>
 </body>
 </html>
